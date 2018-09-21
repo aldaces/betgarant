@@ -4,9 +4,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/common.js"></script>
@@ -109,7 +109,53 @@
             </a>
         </div>
     </div>
-
 </header>
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>коротко о программе</h2>
+                <div class="about-tabs">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Видео о программе</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Как учавствовать?</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><img
+                                src="https://placehold.it/555x380" alt=""></div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ea nostrum quae tempore? Ad adipisci alias animi aperiam assumenda aut consectetur, consequatur culpa deserunt dicta dolor dolore doloremque eligendi fuga ipsum laboriosam libero magni maxime nam nesciunt nobis numquam porro quae quam quas reprehenderit repudiandae saepe soluta tempora tempore ut veritatis vero voluptatum. Autem doloremque error expedita fugit quod? Ducimus iusto, mollitia necessitatibus obcaecati sed sunt unde. Debitis dignissimos, dolor eius enim facilis impedit incidunt libero magnam natus necessitatibus nihil nisi nulla numquam omnis optio perspiciatis quam quo sapiente soluta voluptatibus! Distinctio eaque et excepturi facilis fugiat similique voluptas, voluptatibus.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-slider">
+                    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="..." alt="Первый слайд">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="..." alt="Второй слайд">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="..." alt="Третий слайд">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 </body>
 </html>

@@ -176,8 +176,8 @@ body {
 }
 
 .slider {
-    background-image: url("../img/bg-slider.jpg");
-    height: 100%;
+    background: url("../img/bg-slider.jpg") no-repeat;
+    height: 715px;
 }
 
 .slider .carousel-content {
@@ -273,4 +273,77 @@ body {
     width: 18px;
     height: 18px;
     margin: 5px 0;
+}
+
+.about {
+    background-color: #05192a;
+    height: 750px;
+    padding-top: 50px;
+}
+
+.about h2 {
+    font-family: MontserratBold, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.about h2::before {
+    content: url("../img/h2-img.png");
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    z-index: -1;
+}
+
+.about .nav-tabs {
+    border: none;
+}
+
+.about .nav-tabs a {
+    color: #fff;
+    font-family: MontserratLight, sans-serif;
+    font-size: 16px;
+}
+
+.about .nav-link {
+    padding: 15px 0;
+    margin: 0 30px 20px 0;
+}
+
+.about .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.about .nav-tabs .nav-link.active:after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f107";
+    color: #ffd200;
+    font-size: 13px;
+    font-weight: 900;
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+}
+
+.about .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link a {
+    color: #fff;
+    font-family: MontserratBold, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: transparent;
+}
+
+.about .tab-content {
+    color: #ffffff;
 }
