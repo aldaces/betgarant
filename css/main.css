@@ -13,13 +13,6 @@
 }
 
 @font-face {
-    font-family: MontserratExtraBold;
-    src: url("../fonts/montserrat/Montserrat-ExtraBold.ttf");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
     font-family: MontserratLight;
     src: url("../fonts/montserrat/Montserrat-Light.ttf");
     font-style: normal;
@@ -51,7 +44,6 @@
 body {
     font-family: MontserratRegular, sans-serif;
     font-size: 16px;
-    max-width: 1400px;
     border: 1px solid red;
     margin: 0 auto;
     position: relative;
@@ -139,7 +131,7 @@ body {
     font-size: 16px;
 }
 #menu {
-    width: 1105px;
+    width: 70%;
     height: 65px;
     background-color:  #1e3046;
     float: right;
@@ -148,13 +140,14 @@ body {
 }
 
 #menu::before {
-    content: '';
-    left: 0; top: 1em;
-    width: 0; height: 0;
-    border-style: solid;
-    border-width: 10px 15px 10px 0;
-    border-color: transparent transparent transparent #de3a31;
+    content: " ";
     position: absolute;
+    width: 0;
+    left: -39px;
+    height: 0;
+    border-style: solid;
+    border-width: 65px 39px 0 0;
+    border-color: transparent #1e3046 transparent transparent;
 }
 
 #menu ul li a:focus {
@@ -180,4 +173,104 @@ body {
 #menu .dropdown-item:hover {
     background-color: #1e3046;
     color: yellow;
+}
+
+.slider {
+    background-image: url("../img/bg-slider.jpg");
+    height: 100%;
+}
+
+.slider .carousel-content {
+    height: 100%;
+    color: #fff;
+    display: block;
+    padding-top: 10%;
+    padding-left: 55%;
+}
+
+.slider .carousel-content h2 {
+    font-family: MontserratBold, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.slider .carousel-content h3 {
+    font-family: MontserratBold, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.slider .carousel-content p {
+    width: 53%;
+    font-family: MontserratMedium, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.slider .carousel-content .button-invite-slider {
+    width: 210px;
+    height: 50px;
+    background-color: #ffdc11;
+    margin-top: 50px;
+}
+
+.slider .carousel-content .button-invite-slider a {
+    color: black;
+    font-size: 12px;
+    font-family: MontserratBold, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.slider .carousel-content .button-invite-slider a i {
+    margin-left: 10px;
+}
+
+.slider .carousel-control-prev{
+    left: 18%;
+    font-size: 41px;
+    color: white;
+}
+
+.slider .carousel-control-next{
+    right: 15%;
+    font-size: 41px;
+}
+
+.slider .carousel-control-next i {
+    color: white;
+}
+
+.slider .carousel-indicators {
+    flex-direction: column;
+    right: 46%;
+    bottom: 54%;
+    left: 51%;
+    margin: 0;
+}
+
+.slider .carousel-indicators .active {
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid yellow;
+}
+
+.slider .carousel-indicators li {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 5px 0;
 }
