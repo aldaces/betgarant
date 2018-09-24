@@ -347,3 +347,123 @@ body {
 .about .tab-content {
     color: #ffffff;
 }
+
+.about .about-slider {
+    height: 380px;
+    margin: 120px 0 0 50px;
+}
+
+.about .about-slider .carousel-content{
+    height: 100%;
+}
+
+.about .about-slider h3 {
+    font-family: MontserratBold, sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about .about-slider h3 i {
+    color: yellow;
+    font-size: 34px;
+    margin-right: 10px;
+}
+
+.about .about-slider p {
+    color: #eaeaea;
+    font-size: 14px;
+    font-family: OpenSansRegural, sans-serif;
+    line-height: 28px;
+}
+
+.about .about-slider .carousel-indicators {
+    flex-direction: column;
+    bottom: 54%;
+    left: -9%;
+    margin: 0;
+}
+
+.about .about-slider .carousel-indicators li {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 5px 0;
+}
+.about .about-slider .carousel-indicators .active {
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid yellow;
+}
+
+.about .carousel-content .button-invite-slider {
+    width: 210px;
+    height: 50px;
+    background-color: transparent;
+    margin-top: 50px;
+    border: 2px solid #ffd200;
+}
+
+.about .carousel-content .button-invite-slider a {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: MontserratBold, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.about .carousel-content .button-invite-slider a i {
+    margin-left: 10px;
+    color: #ffd200;
+}
+
+.info {
+    background-color: #edeff4;
+    position: relative;
+}
+
+.info .info-statistics {
+    background-color: #ffdc11;
+    position: absolute;
+    top: -90px;
+    width: 100%;
+    padding: 15px 20px ;
+}
+
+.info .info-statistics .statistics-list{
+    height: 180px;
+}
+
+.info .info-statistics .statistics-list span {
+    display: block;
+    text-align: center;
+    color: black;
+}
+
+.info .info-statistics .statistics-list span:first-child {
+    font-family: MontserratBold, sans-serif;
+    font-size: 46px;
+}
+
+.info .info-statistics .statistics-list span:nth-child(2) {
+    font-family: MontserratBold, sans-serif;
+    font-size: 18px;
+}
+
+.info .info-statistics .statistics-list span:last-child {
+    font-family: MontserratRegular, sans-serif;
+    font-size: 13px;
+}
+
+.info .info-title {
+    font-family: MontserratBold, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
