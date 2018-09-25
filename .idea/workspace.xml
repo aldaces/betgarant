@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e25b7c-4f15-42d8-9ec2-dacdce4df5af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/tours-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tours-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/asd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/asd2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +41,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3170" />
-          <entry key="html" value="2091" />
-          <entry key="txt" value="40" />
+          <entry key="css" value="4711" />
+          <entry key="html" value="3361" />
+          <entry key="txt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3170" />
-          <entry key="HTML" value="2091" />
-          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="CSS" value="4711" />
+          <entry key="HTML" value="3361" />
+          <entry key="PLAIN_TEXT" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -76,11 +76,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="191" column="39" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="39" />
+            <state relative-caret-position="237">
+              <caret line="380" column="64" selection-start-line="380" selection-start-column="64" selection-end-line="380" selection-end-column="64" />
               <folding>
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -89,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="441" column="1" lean-forward="true" selection-start-line="441" selection-start-column="1" selection-end-line="441" selection-end-column="1" />
+            <state relative-caret-position="370">
+              <caret line="718" lean-forward="true" selection-start-line="718" selection-end-line="718" />
             </state>
           </provider>
         </entry>
@@ -111,6 +113,12 @@
       <find>MontserratExtraBold</find>
       <find>MontserratExtraBol</find>
       <find>button-invite-slider</find>
+      <find>.info .card-item</find>
+      <find>.info .how-work</find>
+      <find>.top-users .table th, .top-users .table td</find>
+      <find>.info</find>
+      <find>navbarNav</find>
+      <find>#menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537359649313</updated>
       <workItem from="1537359650538" duration="33870000" />
-      <workItem from="1537789011955" duration="13212000" />
+      <workItem from="1537789011955" duration="29494000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1537361168980</created>
@@ -259,11 +267,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537537074209</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add about all">
+      <created>1537803202836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537803202836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47082000" />
+    <option name="totallyTimeSpent" value="63364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
@@ -304,7 +319,8 @@
     <MESSAGE value="add header menu" />
     <MESSAGE value="add slider" />
     <MESSAGE value="add about" />
-    <option name="LAST_COMMIT_MESSAGE" value="add about" />
+    <MESSAGE value="add about all" />
+    <option name="LAST_COMMIT_MESSAGE" value="add about all" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
@@ -345,19 +361,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="191" column="39" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="39" />
+        <state relative-caret-position="237">
+          <caret line="380" column="64" selection-start-line="380" selection-start-column="64" selection-end-line="380" selection-end-column="64" />
           <folding>
             <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="441" column="1" lean-forward="true" selection-start-line="441" selection-start-column="1" selection-end-line="441" selection-end-column="1" />
+        <state relative-caret-position="370">
+          <caret line="718" lean-forward="true" selection-start-line="718" selection-end-line="718" />
         </state>
       </provider>
     </entry>
