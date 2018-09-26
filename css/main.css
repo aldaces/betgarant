@@ -734,10 +734,16 @@ body {
 }
 
 #menu-footer .dropdown-menu {
-    background-color: #1e3046;
+    background-color: #1e2024;
+    top: inherit;
+    bottom: 100%;
 }
 
 #menu-footer .dropdown-item:hover {
     background-color: #1e3046;
     color: yellow;
+}
+
+#menu-footer .dropdown-toggle::after {
+    transform: rotate(180deg);
 }
