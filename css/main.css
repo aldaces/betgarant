@@ -49,6 +49,10 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 .head {
     height: 154px;
     background-color: #0a2135;
