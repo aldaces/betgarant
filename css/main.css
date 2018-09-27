@@ -88,48 +88,6 @@ a {
     margin-left: 15px;
 }
 
-button,
-button::after {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-
-button::before,
-button::after {
-    background: #fff;
-    content: '';
-    position: absolute;
-    z-index: -1;
-}
-
-button:hover {
-    color: #2ecc71;
-}
-
-.btn-5 {
-    overflow: hidden;
-}
-
-.btn-5::after {
-    /*background-color: #f00;*/
-    height: 100%;
-    left: -35%;
-    top: 0;
-    transform: skew(50deg);
-    transition-duration: 0.6s;
-    transform-origin: top left;
-    width: 0;
-}
-
-.btn-5:hover:after {
-    height: 100%;
-    width: 135%;
-}
-
-
 .head .button-invite {
     width: 190px;
     height: 45px;
@@ -276,6 +234,15 @@ button:hover {
     height: 50px;
     background-color: #ffdc11;
     margin-top: 50px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.slider .carousel-content .button-invite-slider:hover {
+    background-color: transparent;
+    border: 2px solid #ffdc11;
 }
 
 .slider .carousel-content .button-invite-slider a {
@@ -289,6 +256,10 @@ button:hover {
     height: 100%;
     line-height: 50px;
     text-decoration: none;
+}
+
+.slider .carousel-content .button-invite-slider a:hover, .slider .carousel-content .button-invite-slider a i:hover {
+    color: white;
 }
 
 .slider .carousel-content .button-invite-slider a i {
@@ -461,6 +432,14 @@ button:hover {
     background-color: transparent;
     margin-top: 50px;
     border: 2px solid #ffd200;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.about .carousel-content .button-invite-slider:hover {
+    background-color: #ffd200;
 }
 
 .about .carousel-content .button-invite-slider a {
@@ -474,6 +453,10 @@ button:hover {
     height: 100%;
     line-height: 50px;
     text-decoration: none;
+}
+
+.about .carousel-content .button-invite-slider a:hover {
+    color: #0a2135;
 }
 
 .about .carousel-content .button-invite-slider a i {
@@ -540,13 +523,17 @@ button:hover {
 }
 
 .info .card-item ol li {
-    margin: 15px 10px;
+    padding: 10px 10px;
     color: black;
     font-family: MontserratLight, sans-serif;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
     border-bottom: 1px dotted #777777;
+}
+
+.info .card-item ol li:last-child {
+    border-bottom: none;
 }
 
 .info .card-item ol li i {
@@ -571,6 +558,15 @@ button:hover {
     height: 35px;
     float: right;
     margin: 0 7px 7px 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.info .card-item .card-button:hover {
+    background-color: black;
+    color: white;
 }
 
 .info .card-item .card-button a {
@@ -582,6 +578,10 @@ button:hover {
     font-size: 15px;
     line-height: 34px;
     text-decoration: none;
+}
+
+.info .card-item .card-button a:hover {
+    color: white;
 }
 
 .info .card-img {
@@ -678,6 +678,14 @@ button:hover {
     background-color: transparent;
     margin-left: 32px;
     display: inline-block;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.top-users .top-users-head .top-users-button:hover {
+    background-color: #0a2135;
 }
 
 .top-users .top-users-head a {
@@ -690,6 +698,11 @@ button:hover {
     height: 100%;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
+}
+
+.top-users .top-users-head a:hover {
+    color: white;
 }
 
 .top-users .table img {
@@ -733,6 +746,14 @@ button:hover {
     width: 84px;
     height: 22px;
     margin: 30px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.top-users .top-users-bottom .top-users-button:hover {
+    background-color: #0a2135;
 }
 
 .top-users .top-users-bottom .top-users-button a {
@@ -746,6 +767,11 @@ button:hover {
     height: 100%;
     text-transform: uppercase;
     line-height: 21px;
+    text-decoration: none;
+}
+
+.top-users .top-users-bottom .top-users-button a:hover{
+    color: white;
 }
 
 .market {
@@ -823,4 +849,8 @@ button:hover {
     font-size: 20px;
     color: white;
     text-decoration: none;
+}
+
+.footer .social a:hover {
+    color: yellow;
 }
