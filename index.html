@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/common.js"></script>
@@ -17,21 +18,17 @@
     <div class="head">
         <div class="container">
             <div class="row">
-                <div class="col-md-2"><div id="logo"><img src="img/logo.png" alt="logo"></div></div>
-                <div class="col-md-4"><div class="head-prize-fund"><span>Текущий призовой фонд:</span> <span>20 000$</span></div></div>
-                <div class="col-md-3"><div class="button button-invite"><a href="#">Принять участие<i class="fas fa-plus"></i></a></div></div>
-                <div class="col-md-3"><div class="login"><i class="far fa-user"></i><a href="#">регистрация</a> / <a href="#">вход</a></div></div>
+                <div id="logo"><img src="img/logo.png" alt="logo"></div>
+                <div class="col-md-4 col-xs-4 col-4"><div class="head-prize-fund"><span>Текущий призовой фонд:</span> <span>20 000$</span></div></div>
+                <div class="col-md-4 col-xs-4 col-4"><div class="button button-invite"><a href="#">Принять участие<i class="fas fa-plus"></i></a></div></div>
+                <div class="col-md-4 col-xs-4 col-4"><div class="login"><i class="far fa-user"></i><a href="#">регистрация</a> / <a href="#">вход</a></div></div>
             </div>
         </div>
         <div id="menu">
-            <nav class="navbar navbar-expand-lg .navbar-default">
-                <div class="container">
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar top-bar"></span>
-                        <span class="icon-bar middle-bar"></span>
-                        <span class="icon-bar bottom-bar"></span>
-                        <span class="sr-only">Toggle navigation</span>
-                    </button>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
@@ -69,7 +66,6 @@
                             </li>
                         </ul>
                     </div>
-                </div>
             </nav>
         </div>
     </div>
@@ -121,7 +117,7 @@
 <section class="about">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xl-6 col-md-12">
                 <h2>коротко о программе</h2>
                 <div class="about-tabs">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -133,13 +129,16 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><img
-                                src="https://placehold.it/555x380" alt=""></div>
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                            </div>
+                        </div>
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ea nostrum quae tempore? Ad adipisci alias animi aperiam assumenda aut consectetur, consequatur culpa deserunt dicta dolor dolore doloremque eligendi fuga ipsum laboriosam libero magni maxime nam nesciunt nobis numquam porro quae quam quas reprehenderit repudiandae saepe soluta tempora tempore ut veritatis vero voluptatum. Autem doloremque error expedita fugit quod? Ducimus iusto, mollitia necessitatibus obcaecati sed sunt unde. Debitis dignissimos, dolor eius enim facilis impedit incidunt libero magnam natus necessitatibus nihil nisi nulla numquam omnis optio perspiciatis quam quo sapiente soluta voluptatibus! Distinctio eaque et excepturi facilis fugiat similique voluptas, voluptatibus.</div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xl-6 col-md-12">
                 <div class="about-slider">
                     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -177,22 +176,26 @@
     </div>
 
 </section>
-<section class="info">
+<section class="statistics">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-12 col-md-12 col-xs-12 col-12">
                 <div class="info-statistics">
                     <div class="row">
-                        <div class="col-md-3 statistics-list"><span>157</span><span>Пользователей</span><span>на сайте</span></div>
-                        <div class="col-md-3 statistics-list"><span>52</span><span>Турниров</span><span>на сайте</span></div>
-                        <div class="col-md-3 statistics-list"><span>31</span><span>Ставка</span><span>Общее кол-во</span></div>
-                        <div class="col-md-3 statistics-list"><span>5300$</span><span>Общий доход</span><span>пользователей</span></div>
+                        <div class="col-md-3 col-xs-6 col-6 statistics-list"><span>157</span><span>Пользователей</span><span>на сайте</span></div>
+                        <div class="col-md-3 col-xs-6 col-6 statistics-list"><span>52</span><span>Турниров</span><span>на сайте</span></div>
+                        <div class="col-md-3 col-xs-6 col-6 statistics-list"><span>31</span><span>Ставка</span><span>Общее кол-во</span></div>
+                        <div class="col-md-3 col-xs-6 col-6 statistics-list"><span>5300$</span><span>Общий доход</span><span>пользователей</span></div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<section class="info">
+    <div class="container">
         <div class="row statistics-body">
-            <div class="col-md-8">
+            <div class="col-md-12 col-xl-8">
                 <div class="info-title">
                     Последние турниры
                 </div>
@@ -302,7 +305,7 @@
                     <img src="img/asd2.jpg" alt="">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12 col-xl-4">
                 <div class="top-users">
                     <div class="top-users-head">
                         <span>Лучшие прогнозисты</span>
@@ -374,6 +377,9 @@
                 <div class="col-md-10">
                     <div id="menu-footer">
                         <nav class="navbar navbar-expand-lg .navbar-default">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavFooter" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                            </button>
                             <div class="collapse navbar-collapse" id="navbarNavFooter">
                                 <ul class="navbar-nav">
                                     <li class="nav-item active">

@@ -57,10 +57,10 @@ a {
     background-color: #0a2135;
 }
 
-.head #logo {
+.head #logo img{
     position: absolute;
     top: 14px;
-    left: -35px;
+    left: 10%;
     text-align: center;
     filter: drop-shadow(0 21px 40px rgba(255, 255, 255, 0.5));
     -webkit-filter: drop-shadow(0 21px 40px rgba(255, 255, 255, 0.5));
@@ -471,35 +471,36 @@ a {
     padding-bottom: 50px;
 }
 
-.info .info-statistics {
+.statistics .info-statistics {
     background-color: #ffdc11;
     position: absolute;
-    top: -220px;
+    bottom: -100px;
     width: 100%;
     padding: 25px 20px 0;
+    z-index: 111;
 }
 
-.info .info-statistics .statistics-list{
+.statistics .info-statistics .statistics-list{
     height: 180px;
 }
 
-.info .info-statistics .statistics-list span {
+.statistics .info-statistics .statistics-list span {
     display: block;
     text-align: center;
     color: black;
 }
 
-.info .info-statistics .statistics-list span:first-child {
+.statistics .info-statistics .statistics-list span:first-child {
     font-family: MontserratBold, sans-serif;
     font-size: 46px;
 }
 
-.info .info-statistics .statistics-list span:nth-child(2) {
+.statistics .info-statistics .statistics-list span:nth-child(2) {
     font-family: MontserratBold, sans-serif;
     font-size: 18px;
 }
 
-.info .info-statistics .statistics-list span:last-child {
+.statistics .info-statistics .statistics-list span:last-child {
     font-family: MontserratRegular, sans-serif;
     font-size: 13px;
 }
